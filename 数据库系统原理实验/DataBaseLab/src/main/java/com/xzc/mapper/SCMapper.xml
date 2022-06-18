@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzc.mapper.SCMapper">
+
+    <select id="getSCs" resultType="SC">
+        select * from sc;
+    </select>
+    <select id="getSCsBySno" resultType="SC" parameterType="String">
+        select * from sc where Sno = #{Sno};
+    </select>
+    <insert id="addSC" parameterType="SC">
+        insert into sc (Cno,Sno,Grade) values (#{Cno},#{Sno},#{Grade});
+    </insert>
+    <update id="updateGrade" parameterType="SC">
+        update sc set Grade = #{Grade} where Cno = #{Cno} and Sno = #{Sno};
+    </update>
+    <select id="getSnosByCno" resultType="String" parameterType="String">
+        select Sno from sc where Cno = #{Cno};
+    </select>
+    <select id="getCnosBySno" resultType="String" parameterType="String">
+        select Cno from sc where Sno = #{Sno};
+    </select>
+    <select id="getGradeByCnoAndSno" resultType="int" parameterType="map">
+        select Grade from sc where Sno = #{Sno} and Cno = #{Cno};
+    </select>
+</mapper>

@@ -1,0 +1,3 @@
+﻿  FileOperation.cpp
+D:\hook\FileOperation\FileOperation.cpp(60,46): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  FileOperation.vcxproj -> D:\hook\InjectDll\x64\Debug\FileOperation.exe

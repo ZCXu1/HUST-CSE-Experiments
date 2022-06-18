@@ -1,0 +1,4 @@
+﻿  TestApp.cpp
+D:\TestInitialNullForStudent\TestApp\TestApp.cpp(138,61): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+D:\TestInitialNullForStudent\TestApp\TestApp.cpp(138,30): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明

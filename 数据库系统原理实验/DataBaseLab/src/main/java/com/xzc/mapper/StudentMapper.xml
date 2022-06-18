@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzc.mapper.StudentMapper">
+    <select id="getStudents" resultType="Student">
+        select * from student;
+    </select>
+    <select id="getStudentBySno" resultType="Student" parameterType="String">
+        select * from student where Sno = #{Sno};
+    </select>
+    <select id="getStudentsBySdept" resultType="Student" parameterType="String">
+        select * from student where Sdept = #{Sdept};
+    </select>
+    <insert id="addStudent" parameterType="Student">
+        insert into student (Sno,Sname,Ssex,Sage,Sdept,Scholarship) values
+        (#{Sno},#{Sname},#{Ssex},#{Sage},#{Sdept},#{Scholarship});
+    </insert>
+    <update id="updateStudent" parameterType="map">
+        update student
+        <set>
+            <if test="Sname != null">
+                Sname = #{Sname},
+            </if>
+            <if test="Ssex != null">
+                Ssex = #{Ssex},
+            </if>
+            <if test="Sage != null">
+                Sage = #{Sage},
+            </if>
+            <if test="Sdept != null">
+                Sdept = #{Sdept},
+            </if>
+            <if test="Scholarship != null">
+                Scholarship = #{Scholarship}
+            </if>
+        </set>
+        where Sno = #{Sno};
+    </update>
+</mapper>

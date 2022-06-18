@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>logo.png</file>
+        <file>browse.png</file>
+        <file>speech.png</file>
+        <file>check.png</file>
+        <file>icons8-remove-144.png</file>
+        <file>icons8-reddit-480.png</file>
+    </qresource>
+</RCC>
