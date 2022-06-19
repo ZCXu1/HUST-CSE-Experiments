@@ -1,0 +1,12 @@
+megs: 32
+
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/share/vgabios/vgabios.bin
+
+floppya: 1_44=a.img, status=inserted
+
+boot: floppy
+
+log: bochsout.txt
+
+mouse: enabled=0
