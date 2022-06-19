@@ -1,0 +1,68 @@
+======================================================
+/etc/apparmor.d/usr.bin.ping
+======================================================
+# Last Modified: Tue May 31 03:52:23 2022
+
+#include <tunables/global>
+
+/usr/bin/ping {
+  #include <abstractions/base>
+
+  deny capability net_raw,
+
+  /usr/bin/ping mr,
+
+}
+
+=======================================================
+/etc/apparmor.d/home.xzc.Desktop.lab2.command
+======================================================
+#include <tunables/global>
+
+/home/xzc/Desktop/lab2/command {
+	#include <abstractions/base>
+	#include <abstractions/postfix-common>
+
+	/home/xzc/Desktop/lab2/command mr,
+	/usr/bin/dash mrix,
+}
+
+======================================================
+
+sudo apparmor_parser -r /etc/apparmor.d/home.xzc.Desktop.lab2.command
+
+======================================================
+/etc/apparmor.d/home.xzc.Desktop.lab2.command
+======================================================
+#include <tunables/global>
+
+/home/xzc/Desktop/lab2/command {
+        #include <abstractions/base>
+        #include <abstractions/bash>
+        #include <abstractions/consoles>
+        #include <abstractions/evince>
+        #include <abstractions/nameservice>
+        #include <abstractions/postfix-common>
+
+        capability dac_read_search,
+        capability dac_override,
+
+        /bin/bash mrix,
+        /bin/cat mrix,
+        /bin/dash mrix,
+        /bin/lesspipe mrix,
+        /home/*/.bash_history rw,
+        /home/*/.bashrc r,
+        /home/*/Desktop/lab2/ r,
+        /home/xzc/Desktop/lab2/ r,
+        /home/xzc/Desktop/lab2/command mr,
+        /home/xzc/Desktop/lab2/localfile r,
+        /lib/x86_64-linux-gnu/ld-*.so mr,
+        /usr/bin/whoami mrix,
+        /usr/bin/ncat rix,
+        /bin/ls mrix,
+        owner /etc/init.d/ r,
+        owner /usr/bin/dircolors mr,
+}
+======================================================
+sudo apparmor_parser -r /etc/apparmor.d/home.xzc.Desktop.lab2.command
