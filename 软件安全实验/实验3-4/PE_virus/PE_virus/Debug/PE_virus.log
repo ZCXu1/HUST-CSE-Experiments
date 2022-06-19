@@ -1,0 +1,61 @@
+﻿  infect.cpp
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(24,7): warning C4101: “mark”: 未引用的局部变量
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,24): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,24): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,50): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,50): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,72): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,72): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,85): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,85): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,98): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,98): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,107): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,107): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,128): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,128): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,133): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,133): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,146): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,146): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,151): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,151): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,159): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,159): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,174): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,174): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,179): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,179): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,192): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,192): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,197): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,197): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,206): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,206): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,221): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,221): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,226): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,226): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,243): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,243): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,248): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,248): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,253): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,253): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,258): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,258): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,275): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,275): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,280): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,280): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,293): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,293): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,298): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,298): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,319): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,319): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,324): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,324): warning C4309: “初始化”: 截断常量值
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,329): warning C4838: 从“int”转换到“char”需要收缩转换
+F:\vs_workplace\c++_project\PE_virus\PE_virus\virus_inject.h(97,329): warning C4309: “初始化”: 截断常量值
+  PE_virus.vcxproj -> F:\vs_workplace\c++_project\PE_virus\Debug\PE_virus.exe
