@@ -1,0 +1,6 @@
+^E:\大学\汇编\EXP3TASK2\TEST.ASM
+ml /c /coff test.asm
+^E:\大学\汇编\EXP3TASK2\TEST2.ASM
+ml /c /coff test2.asm
+^E:\大学\汇编\EXP3TASK2\TEST3.ASM
+ml /c /coff test3.asm

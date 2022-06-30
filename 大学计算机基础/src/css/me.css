@@ -1,0 +1,116 @@
+/* body{
+    max-width: 1000px;
+    margin: 50px auto;
+    font: normal 14px/1.5 Tahoma,"Lucida Grande",Verdana,"Microsoft Yahei";
+    color: #000;
+    background: #f2f2f2;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color:transparent;
+    height: 2000px;
+} */
+div{
+    box-sizing: border-box;
+}
+
+.jianli{
+    display: flex;
+    height: 640px;
+    
+}
+.left{
+    border: #501804 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    /* background-color: aquamarine; */
+}
+.left .head{
+    flex: 1;
+    /* background-color: #0071C1; */
+    background-color: #ffede6;
+    height: 100px;
+}
+.left .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 8;
+    /* background-color:#ece4e4; */
+}
+.container .ima{
+    height: 400px;
+    width: 240px;
+}
+.container span{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #CC9E8D;
+}
+.left .bottom{
+    flex: 1;
+    background-color: #ffede6;
+    height: 100px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+}
+.right .first{
+    display: flex;
+    flex: 1; 
+    font-size:  25px;
+    color: #CC9E8D;
+    margin-left: 50px;
+    border-bottom: solid 1px #413f3f;
+    align-items: flex-end;
+
+}
+.first span{
+    margin-bottom: 10px;
+}
+.right .second{
+    margin-left: 50px;
+    font-size:  18px;
+    color: #CC9E8D;
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+}
+.second .edu{
+    display: flex;
+    margin:10px 0;
+}
+.edu span{
+    flex: 1;
+}
+.edu span:nth-child(2){
+    margin-left: 330px;
+}
+.right .third{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.third span{
+    flex: 1;
+}
+.title{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #CC9E8D;
+    list-style: none;
+}
+.other{
+    margin-left: 40px;
+    font-size: 15px;
+    color: #5c1d06;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.four{
+  display: flex;
+  justify-content: flex-end;
+}
