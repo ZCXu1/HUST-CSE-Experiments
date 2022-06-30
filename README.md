@@ -1,6 +1,5 @@
 # HUST-CSE-Experiments
 
-- 大学计算机基础
 - 数据结构实验
 - 汇编实验
 
