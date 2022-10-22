@@ -28,9 +28,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * @author U201916322 Xu Zichuan
- */
+
 public class LruAndOpt {
     // 设置页面大小为10
     private final int pageSize = 10;
