@@ -20,20 +20,7 @@ https://github.com/GuanyunFeng/MyFireWall-netfilter（注意在内外网互相pi
 
 ## 外网配置
 
-**先在NAT模式下完成apache安装！** “右键虚拟机->设置->网络适配器“改为NAT模式，重启。
-
-![image-20220804103317875](%E9%AA%8C%E6%94%B6.assets/image-20220804103317875.png)
-
-安装apache，开启web服务。并可以通过修改`/var/www/index.html`来修改网页的内容。安装完成后打开浏览器，访问127.0.0.1，如果能正常访问，说明web服务已经开启。命令如下：
-
-```
-sudo apt-get install apache2
-sudo /etc/init.d/apache2 start
-```
-
-![image-20220804103009122](%E9%AA%8C%E6%94%B6.assets/image-20220804103009122.png)
-
-**安装完了切换网卡**，“右键虚拟机->设置->添加->网络适配器“可以为虚拟机添加网卡
+**切换网卡**，“右键虚拟机->设置->添加->网络适配器“可以为虚拟机添加网卡
 
 ![image-20220804103346162](%E9%AA%8C%E6%94%B6.assets/image-20220804103346162.png)
 
@@ -58,40 +45,6 @@ sudo /etc/init.d/apache2 start
 报错`Unable to lock directory /var/lib/apt/lists/`
 
 执行`sudo fuser -vki /var/lib/apt/lists/lock`
-
-## 安装apache失败
-
-使用apt安装时报错：
-
-```bash
-E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
-E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
-```
-
-解决方案：
-方案一：
-
-`sudo killall apt apt-get`
-如果提示没有apt进程：
-
-```bash
-apt: no process found
-apt-get: no process found
-```
-
-往下看方案二
-
-依次执行：
-
-```bash
-sudo rm /var/lib/apt/lists/lock
-sudo rm /var/cache/apt/archives/lock
-sudo rm /var/lib/dpkg/lock*
-sudo dpkg --configure -a
-sudo apt update
-```
-
-
 
 # 验收
 
