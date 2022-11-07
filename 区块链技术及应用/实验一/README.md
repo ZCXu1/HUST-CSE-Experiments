@@ -129,7 +129,7 @@ go mod tidy
 ![image-20221107150946961](README.assets/image-20221107150946961.png)
 
 ```bash
-sudo ./network.sh deployCC -ccn basic -ccp  -ccl go
+sudo ./network.sh deployCC -ccn basic -ccp $<dir to vote-smartcontract> -ccl go
 # 替换$<dir to vote-smartcontract>为vote-smartcontract代码的目录
 # 比如我的命令就是
 sudo ./network.sh deployCC -ccn basic -ccp ../../blockchain-exp/vote-smartcontract -ccl go
