@@ -43,6 +43,33 @@ https://github.com/yy158775/blockchain-exp
 
 ![image-20221104165459687](README.assets/image-20221104165459687.png)
 
+还需要保证root权限能执行go命令
+
+```bash
+sudo vim /etc/profile
+#在最后一行添加
+export PATH=$PATH:/usr/local/go/bin
+```
+
+![image-20221107165944042](README.assets/image-20221107165944042.png)
+
+执行
+
+```bash
+sudo su
+source /etc/profile
+go version
+```
+
+![image-20221107170110322](README.assets/image-20221107170110322.png)
+
+注意每启动一个终端都要先
+
+```bash
+sudo su
+source /etc/profile
+```
+
 ### 安装jq
 
 `sudo apt install jq`
