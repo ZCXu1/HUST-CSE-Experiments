@@ -15,7 +15,7 @@ https://github.com/yy158775/blockchain-exp
 - Docker Compose 1.25.5
 - Golang 1.19.3
 - jq 1.6
-- Fabric 1.4 的可执行文件
+- Fabric 2.x
 
 ### 安装git
 
