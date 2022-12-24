@@ -16,10 +16,7 @@ https://github.com/yy158775/blockchain-exp
 - Golang 1.19.3
 - jq 1.6
 - Fabric 2.x
-<<<<<<< HEAD
 
-=======
->>>>>>> b52a95c8e18e2f0ca48a6d27e9eb29c08cf2960a
 ### 安装git
 
 `sudo apt install git`
