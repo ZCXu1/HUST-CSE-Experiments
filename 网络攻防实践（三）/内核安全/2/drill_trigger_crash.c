@@ -1,7 +1,4 @@
-/*
- * Student ID: U201916322
- * Author: XZC
- */
+
 
 #include <stdio.h>
 #include <stdlib.h>

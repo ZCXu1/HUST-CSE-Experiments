@@ -1,6 +1,5 @@
 ﻿/*
 Date:2020-11-19
-Author:@徐子川-U201916322
 */
 #include <iostream>//输入输出流
 #include <queue>//队列

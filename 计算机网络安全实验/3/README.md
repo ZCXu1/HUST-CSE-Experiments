@@ -227,7 +227,7 @@ sudo ./myser
 HostU中输入
 
 ```bash
-./mycli ZichuanXU 4433 seed dees 2
+./mycli XZC 4433 seed dees 2
 ```
 
 运行客户端

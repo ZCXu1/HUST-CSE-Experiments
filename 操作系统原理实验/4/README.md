@@ -189,8 +189,8 @@ module_init(xuzichuanDrv_init);
 module_exit(xuzichuanDrv_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("u201916322@hust.edu.cn");
-MODULE_DESCRIPTION("xuzichuan's Driver Demo");
+MODULE_AUTHOR("u201912345@hust.edu.cn");
+MODULE_DESCRIPTION("xzc's Driver Demo");
 ```
 
 ## test2.c

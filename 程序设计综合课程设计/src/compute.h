@@ -2,7 +2,6 @@
  * compute.h
  *
  *  Created on: 2021年3月4日
- *      Author: 徐子川
  */
 #ifndef METRO_COMPUTE_H
 #define METRO_COMPUTE_H

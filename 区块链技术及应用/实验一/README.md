@@ -84,7 +84,9 @@ source /etc/profile
 
 去网址`https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh`
 
-ctrl+s保存`install-fabric.sh`并放到刚才clone的`fabric-samples`目录录
+ctrl+s保存`install-fabric.sh`并放到刚才clone的`fabric-samples`目录下
+
+**如果链接失效了就直接用本仓库中的`install-fabric.sh`**
 
 然后进入目录`fabric-samples`执行
 

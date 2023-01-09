@@ -116,7 +116,7 @@ void *listen_tun(void *threadData) {
 
 int main(int argc, char *argv[]) {
     // 与证书中的Common Name统一
-    char *hostname = "ZichuanXU";
+    char *hostname = "XZC";
     int port = 4433;
 
     if (argc < 6) {

@@ -1,6 +1,5 @@
 ﻿/*
 Date:2020-11-1
-Author:@徐子川-U201916322
 */
 
 #include<iostream>
