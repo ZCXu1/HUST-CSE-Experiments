@@ -25,6 +25,12 @@ python demo.py
 
 `self.csv=pandas.read_csv("data\\YourDataset.csv")`
 
+**然后demo.py里**
+
+`env = MAB([MyArm(p) for p in range(0,9)])`
+
+**你数据集N列，range里面就是0,N**
+
 运行的关键主要是替换数据集，在里面的data下面的`YourDataset.csv`，自行替换你自己的数据集，因为数据集重复会判断抄袭，导致两个人都出问题。这里主要说下数据集格式。
 
 ![image-20230109124537070](README.assets/image-20230109124537070.png)
