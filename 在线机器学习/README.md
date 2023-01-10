@@ -21,6 +21,8 @@ python demo.py
 
 注意这里的代码没数据集，需要你自己替换，没换是肯定运行不起来的
 
+### 改代码的部分
+
 **替换后记得修改arm目录下MyArm.py中的一行，改下名字，这里是程序读取数据集的目录**
 
 `self.csv=pandas.read_csv("data\\YourDataset.csv")`
@@ -30,6 +32,12 @@ python demo.py
 `env = MAB([MyArm(p) for p in range(0,9)])`
 
 **你数据集N列，range里面就是0,N**
+
+除此之外，如果还报错，那就是reward太大了，在`MyArm.py`中，把`self.expectation`和`result`除以一个常数，调小（原代码这两个地方没有5000）
+
+![image-20230110081023527](README.assets/image-20230110081023527.png)
+
+### 数据集
 
 运行的关键主要是替换数据集，在里面的data下面的`YourDataset.csv`，自行替换你自己的数据集，因为数据集重复会判断抄袭，导致两个人都出问题。这里主要说下数据集格式。
 
