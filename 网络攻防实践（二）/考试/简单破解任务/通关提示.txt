@@ -1,0 +1,1 @@
+URL为 http://IP地址/ vulnerabilities/upload/， 任务是上传一句话木马，获取系统shell，找到名为 “index2.php” 的文件
